@@ -1,0 +1,60 @@
+.title {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 900;
+    font-size: 35px;
+
+}
+#waitr {
+    background-color: #5E5A59;
+    margin: 10px;
+}
+#forage {
+    background-color: #5E5A59;
+    margin: 10px;
+}
+#favour {
+    background-color: #5E5A59;
+    margin: 10px;
+}
+#menu {
+    border: none;
+    box-shadow: none;
+}
+#backBtn {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#aboutHeader {
+    font-size: 45px;
+}
+.info {
+    font-size: 20px;
+}
+.workHeader {
+    font-size: 40px;
+}
+#favourImg {
+    padding-top: 15%;
+}
+#forageImg {
+    padding-top: 5%;
+}
+#welcome {
+    margin: 10px;
+    background-color: #5E5A59;
+    color: white;
+}
+.welcomeHeader {
+    font-size: 50px;
+}
+.ui.menu .header.item, .ui.vertical.menu .header.item {
+    margin-left: -20px;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: teal;
+}
