@@ -1,26 +1,49 @@
 <div class="ui container">
-    <i class="big chevron left icon" id="backBtn" ui-sref="work"></i>
+    <div class="ui borderless menu" id="menu">
+        <div class="header item">
+            <h1 class="title">DAN HOANG LE</h1>
+        </div>
+        <div class="right menu">
+            <a class="item" ui-sref="work">PORTFOLIO</a>
+            <a class="item" ui-sref="about">ABOUT</a>
+        </div>
+    </div>
     <div class="ui stackable grid">
-        <div class="seven wide column">
+        <div class="sixteen wide column">
             <h1 class="ui header" id="forageProHeader">FORAGE</h1>
+        </div>
+        <div class="seven wide column">
             <div class="ui vertical segment">
-                <h1>ABOUT</h1>
+                <h1 class="forageHeader">ABOUT</h1>
                 <p class="forageSent">Forage has one signup page where users/owners can switch back and forth without having to make two separate accounts. This makes it convenient if someone would like to become a food truck owner or want to use the app to search for food trucks. Users can send private messages, order online, receive updates through text messages, and review different food trucks. Owners can turn on their location, add the menu, post hours of operation, and receive private messages. Forage makes it easier for food trucks to promote their business by customers seeing their location and being able to communicate with them through the website. </p>
             </div>
             <div class="ui vertical segment">
-                <h1>RESPONSIBILITY</h1>
+                <h1 class="forageHeader">RESPONSIBILITY</h1>
                 <p class="forageSent">The first part of the project I did was brainstorm on a large sheet of paper was the first step of the project. I wrote the views, end points to connect the front end of the application, and data schema. After planning the project I began researching new technology to implement it on the project. The next step was to connect the front end to the back end. The mock up was the last step in planning the project that helped guide me from start to finish with coding. </p>
             </div>
             <div class="ui vertical segment">
-                <h1>TECHNOLOGY</h1>
-                <p class="forageSent">The technology that waitr was built with was <strong class="forageStrong">MongooseJS, Express.js, AngularJS, Node.js, Socket.io, Ionic, and Moment.js</strong></p>
+                <h1 class="forageHeader">TECHNOLOGY</h1>
+                <p class="forageSent">The technology that waitr was built with was <strong class="forageStrong">JavaScript, HTML5, CSS3, AngularJS, MongooseJS, Express.js, Node.js, Socket.io, Google Map API, and Google Geolocation API</strong></p>
                 <a class="ui button" id="forageBtn">VIEW LIVE WEBSITE</a>
             </div>
         </div>
+        <div class="one wide column"></div>
         <div class="eight wide column">
-            <img class="ui medium centered image" src="../assets/img/iPhone 6+.png" alt="">
-            <img class="ui medium centered image" src="../assets/img/wait list.png" alt="">
-            <img class="ui medium centered image" src="../assets/img/profile.png" alt="">
+            <div class="ui list">
+                <div class="item"><img class="ui fluid centered image" src="../assets/img/forage.png" alt=""></div>
+            </div>
         </div>
+    </div>
+    <div class="buttons footer">
+        <button class="ui labeled icon button" id="leftButton" ui-sref="favour">
+            <i class="big chevron left icon"></i>
+            PREVIOUS WORK <br>
+            <h1 class="btnLeft">Favour</h1>
+        </button>
+        <button class="ui right labeled icon right floated button" id="rightButton" ui-sref="waitr">
+            <i class="big chevron right icon"></i>
+            NEXT WORK <br>
+            <h1 class="btnRight">Waitr</h1>
+        </button>
     </div>
 </div>

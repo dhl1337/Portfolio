@@ -7,27 +7,32 @@
 
 }
 #waitr {
-    background-color: #5E5A59;
+    background-color: #ecf0f1;
     margin: 10px;
 }
 #forage {
-    background-color: #5E5A59;
+    background-color: #ecf0f1;
     margin: 10px;
 }
 #favour {
-    background-color: #5E5A59;
+    background-color: #ecf0f1;
     margin: 10px;
 }
 #menu {
     border: none;
     box-shadow: none;
 }
-#backBtn {
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
 #aboutHeader {
+    color: #1abc9c;
     font-size: 45px;
+}
+#favourProHeader {
+    margin-top: 5%;
+    color: orange;
+    font-size: 45px;
+}
+.favourHeader {
+    color: orange;
 }
 .info {
     font-size: 20px;
@@ -43,21 +48,80 @@
 }
 #welcome {
     margin: 10px;
-    background-color: #5E5A59;
-    color: white;
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }
 .welcomeHeader {
     font-size: 50px;
+    color: #1abc9c;
 }
 .ui.menu .header.item, .ui.vertical.menu .header.item {
     margin-left: -20px;
 }
-a {
-    color: black;
-}
-a:hover {
-    color: teal;
+.ui.menu .item {
+    color: #1abc9c;
 }
 .intro {
     padding-top: 7%;
+}
+a, .title, #servicesHeader {
+    color: #1abc9c;
+}
+#waitrProHeader {
+    margin-top: 5%;
+    color: orange;
+    font-size: 60px;
+}
+.waitrHeader {
+    color: orange;
+}
+.waitrSent, .favourSent, .forageSent {
+    font-size: 18px;
+}
+#forageProHeader {
+    margin-top: 5%;
+    font-size: 60px;
+    color: #FF4447;
+}
+.forageHeader {
+    color: #FF4447;
+}
+#forageBtn {
+    margin-top: 3%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #FF4447;
+    color: #FF4447;
+}
+#waitrBtn, #favourBtn {
+    margin-top: 3%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
+#rightBtn {
+    text-align: right;
+    float: right;
+    margin-top: 1%;
+
+}
+#leftButton {
+    background-color: transparent;
+    border: none;
+}
+#rightButton {
+    background-color: transparent;
+    border: none;
+}
+.buttons.footer {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.ui.labeled.icon.button > .icon  {
+    background-color: transparent;
+}
+.btnLeft, .btnRight {
+    margin-top: -3%;
+    font-size: 40px;
 }

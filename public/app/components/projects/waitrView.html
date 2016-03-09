@@ -1,27 +1,47 @@
 <div class="ui container">
-    <i class="big chevron left icon" id="backBtn" ui-sref="work"></i>
+    <div class="ui borderless menu" id="menu">
+        <div class="header item">
+            <h1 class="title">DAN HOANG LE</h1>
+        </div>
+        <div class="right menu">
+            <a class="item" ui-sref="work">PORTFOLIO</a>
+            <a class="item" ui-sref="about">ABOUT</a>
+        </div>
+    </div>
     <div class="ui stackable grid">
-        <div class="seven wide column">
+        <div class="sixteen wide column">
             <h1 class="ui header" id="waitrProHeader">WAITR</h1>
+        </div>
+        <div class="seven wide column">
             <div class="ui vertical segment">
-                <h1>ABOUT</h1>
+                <h1 class="waitrHeader">ABOUT</h1>
                 <p class="waitrSent">Wattr mobile app has two sides one for customers and the other for restaurant owners/employees. On the customers side it allows them to look at how long the wait is for a table, put their name down on the wait list, look at the menu, order food from the table, and pay on the app. On the restaurant side it lets the workers know who is next to get a table, which table placed a food order, and if the guest has paid for their bill. Since customers are ordering their own food it can eliminate miss communication with food orders. Overall this app will deliver quicker services, have a decrease in poor customer service, and is a convenient way of communicating at our fingertips. </p>
             </div>
             <div class="ui vertical segment">
-                <h1>RESPONSIBILITY</h1>
+                <h1 class="waitrHeader">RESPONSIBILITY</h1>
                 <p class="waitrSent">I help my team carefully plan out the entire process for the project.  The first step I did was a mock up of the project on sketch then presented it to the group. Once everyone has agreed we divide the work. If there were any extra views that no one has done I would take those extra ones and complete it. I started from the back end and connect the front end to the back. If there were any questions, comments, or concerns about the project I would address it. </p>
             </div>
             <div class="ui vertical segment">
-                <h1>TECHNOLOGY</h1>
-                <p class="waitrSent">The technology that waitr was built with was <strong class="waitrStrong">MongooseJS, Express.js, AngularJS, Node.js, Socket.io, Ionic, and Moment.js</strong></p>
+                <h1 class="waitrHeader">TECHNOLOGY</h1>
+                <p class="waitrSent">The technology that waitr was built with was <strong class="waitrStrong">JavaScript, HTML5, CSS3, AngularJS, MongooseJS, Express.js, Node.js, Socket.io, Ionic, and Moment.js</strong></p>
                 <a class="ui button" id="waitrBtn" href="http://104.131.135.179/#/login">VIEW LIVE WEBSITE</a>
             </div>
         </div>
         <div class="eight wide column">
-            <img class="ui medium centered image" src="../assets/img/iPhone 6+.png" alt="">
-            <img class="ui medium centered image" src="../assets/img/wait list.png" alt="">
-            <img class="ui medium centered image" src="../assets/img/profile.png" alt="">
+            <img class="ui medium centered image" src="../assets/img/waitr.png" alt="">
         </div>
+    </div>
+    <div class="buttons footer">
+        <button class="ui labeled icon button" id="leftButton" ui-sref="forage">
+            <i class="big chevron left icon"></i>
+            PREVIOUS WORK <br>
+            <h1 class="btnLeft">FORAGE</h1>
+        </button>
+        <button class="ui right labeled icon right floated button" id="rightButton" ui-sref="favour">
+            <i class="big chevron right icon"></i>
+            NEXT WORK <br>
+            <h1 class="btnRight">FAVOUR</h1>
+        </button>
     </div>
 </div>
 

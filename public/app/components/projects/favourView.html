@@ -1,18 +1,28 @@
 <div class="ui container">
-    <i class="big chevron left icon" id="backBtn" ui-sref="work"></i>
+    <div class="ui borderless menu" id="menu">
+        <div class="header item">
+            <h1 class="title">DAN HOANG LE</h1>
+        </div>
+        <div class="right menu">
+            <a class="item" ui-sref="work">PORTFOLIO</a>
+            <a class="item" ui-sref="about">ABOUT</a>
+        </div>
+    </div>
     <div class="ui stackable grid">
-        <div class="seven wide column">
+        <div class="sixteen wide column">
             <h1 class="ui header" id="favourProHeader">FAVOUR</h1>
+        </div>
+        <div class="seven wide column">
             <div class="ui vertical segment">
-                <h1>ABOUT</h1>
+                <h1 class="favourHeader">ABOUT</h1>
                 <p class="favourSent">Favour has a thread that people can ask for a favor or offer services to others. If there is a post that you are interested in by clicking the star it will save the post into your “favorite” tab. This way later on if you want to come back, it will always be saved since it can get lost in the thread. Each individual has their own profile, which allows others to rate and review their experiences with each other.  Everyone can use a hand every once in awhile, therefore with the favour website it makes interacting with the community convenient.</p>
             </div>
             <div class="ui vertical segment">
-                <h1>RESPONSIBILITY</h1>
+                <h1 class="favourHeader">RESPONSIBILITY</h1>
                 <p class="favourSent">Before getting started on the project I listed what the website would have. Once I finished writing it out I put all my ideas into a wire frame. This made it easier to visualize exactly what I wanted to project to look like. There were new technologies that I was interested in applying on my project; therefore I began researching more about it. I began writing the code and upon finishing it I hosted my website for others to review it and give feed backs. Lastly, I fixed any bugs that were causing my page to not work. </p>
             </div>
             <div class="ui vertical segment">
-                <h1>TECHNOLOGY</h1>
+                <h1 class="favourHeader">TECHNOLOGY</h1>
                 <p class="favourSent">The technology that waitr was built with was <strong class="favourStrong">MongooseJS, Express.js, AngularJS, Node.js, Socket.io, Ionic, and Moment.js</strong></p>
                 <a class="ui button" id="favourBtn" href="https://needsfavor.firebaseapp.com/#/home">VIEW LIVE WEBSITE</a>
             </div>
@@ -25,5 +35,17 @@
                 <div class="item"><img class="ui fluid centered image" src="../assets/img/Screen Shot 2016-03-06 at 11.59.00 AM.png" alt=""></div>
             </div>
         </div>
+    </div>
+    <div class="buttons footer">
+        <button class="ui labeled icon button" id="leftButton" ui-sref="waitr">
+            <i class="big chevron left icon"></i>
+            PREVIOUS WORK <br>
+            <H1 class="btnLeft">Waitr</H1>
+        </button>
+        <button class="ui right labeled icon right floated button" id="rightButton" ui-sref="forage">
+            <i class="big chevron right icon"></i>
+            NEXT WORK <br>
+            <h1 class="btnRight">Forage</h1>
+        </button>
     </div>
 </div>
