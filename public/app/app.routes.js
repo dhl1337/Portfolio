@@ -12,7 +12,8 @@
             })
             .state('work', {
                 url: '/work',
-                templateUrl: '../app/components/work/workView.html'
+                templateUrl: '../app/components/work/workView.html',
+                controller: 'workController'
             })
             .state('waitr', {
                 url: '/waitr',

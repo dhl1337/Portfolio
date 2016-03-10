@@ -7,10 +7,13 @@
         .controller('workController', workController);
 
     function workController () {
-        $('#waitrImg')
+
+        $('.dimmable')
             .dimmer({
                 on: 'hover'
-            });
+            })
+        ;
+
     };
 
 })();

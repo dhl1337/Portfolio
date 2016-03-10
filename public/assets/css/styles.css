@@ -1,10 +1,12 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
 .title {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
     font-weight: 900;
     font-size: 35px;
-
 }
 #waitr {
     background-color: #ecf0f1;
@@ -124,4 +126,19 @@ a, .title, #servicesHeader {
 .btnLeft, .btnRight {
     margin-top: -3%;
     font-size: 40px;
+}
+#moreInfobtn, #visitSitebtn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+#moreInfobtn:hover, #visitSitebtn:hover {
+    background-color: #1abc9c;
+    border: transparent;
+}
+a:hover {
+    color: black;
+}
+.ui.inverted.header {
+    font-size: 50px;
 }
