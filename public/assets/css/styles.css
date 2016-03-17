@@ -22,14 +22,15 @@ body {
 }
 #menu {
     border: none;
-    box-shadow: none;
+    margin-bottom: 3%;
+    background-color: #1abc9c;
+    color: white;
 }
 #aboutHeader {
     color: #1abc9c;
     font-size: 45px;
 }
 #favourProHeader {
-    margin-top: 5%;
     color: orange;
     font-size: 45px;
 }
@@ -46,7 +47,7 @@ body {
     padding-top: 15%;
 }
 #forageImg {
-    padding-top: 5%;
+    padding-top: 15%;
 }
 #welcome {
     margin: 10px;
@@ -61,16 +62,24 @@ body {
     margin-left: -20px;
 }
 .ui.menu .item {
-    color: #1abc9c;
+    color: white;
 }
 .intro {
     padding-top: 7%;
 }
-a, .title, #servicesHeader {
+.title {
+    color: white;
+}
+a {
+    color: #1abc9c;
+}
+a:hover {
+    color: black;
+}
+#servicesHeader {
     color: #1abc9c;
 }
 #waitrProHeader {
-    margin-top: 5%;
     color: orange;
     font-size: 60px;
 }
@@ -81,7 +90,6 @@ a, .title, #servicesHeader {
     font-size: 18px;
 }
 #forageProHeader {
-    margin-top: 5%;
     font-size: 60px;
     color: #FF4447;
 }
@@ -118,7 +126,7 @@ a, .title, #servicesHeader {
 }
 .buttons.footer {
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .ui.labeled.icon.button > .icon  {
     background-color: transparent;
@@ -136,9 +144,23 @@ a, .title, #servicesHeader {
     background-color: #1abc9c;
     border: transparent;
 }
-a:hover {
-    color: black;
+.ui.menu a.item:hover {
+    color: #1abc9c;
+    background-color: white;
+    font-size: large;
 }
 .ui.inverted.header {
     font-size: 50px;
+}
+#contactList{
+    text-align: center;
+}
+#contactList > a.item {
+    color: #1abc9c;
+    font-weight: 300;
+    font-size: 18px;
+}
+#contactList > a.item:hover {
+    font-weight: 600;
+    border-bottom: 4px solid black;
 }
