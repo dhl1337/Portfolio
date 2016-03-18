@@ -98,17 +98,28 @@ a:hover {
 }
 #forageBtn {
     margin-top: 3%;
-    width: 100%;
     background-color: transparent;
     border: 1px solid #FF4447;
     color: #FF4447;
+    width: 45%;
+}
+#githubForageBtn {
+    width: 50%;
+    margin-top: 3%;
+    background-color: #FF4447;
+    color: white;
 }
 #waitrBtn, #favourBtn {
     margin-top: 3%;
-    width: 100%;
     background-color: transparent;
     border: 1px solid orange;
     color: orange;
+}
+#githubBtn {
+    width: 50%;
+    margin-top: 3%;
+    background-color: orange;
+    color: white;
 }
 #rightBtn {
     text-align: right;
